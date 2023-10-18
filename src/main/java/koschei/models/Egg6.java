@@ -1,11 +1,10 @@
 package koschei.models;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-@Component
+@Service
 public class Egg6 {
-
     private final Needle7 needle;
 
     @Autowired
